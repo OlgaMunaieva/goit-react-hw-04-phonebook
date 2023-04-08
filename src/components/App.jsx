@@ -15,6 +15,7 @@ export const App = () => {
       return initialContacts;
     }
   });
+
   const [filter, setFilter] = useState('');
 
   const addContact = (name, number) => {

@@ -24,7 +24,6 @@ const ContactForm = ({ addContact }) => {
     resetForm(name, number);
   };
 
-  // render() {
   return (
     <ContainerForm action="" onSubmit={handleOnSubmit}>
       <ContainerInput htmlFor="" name="name">
@@ -55,7 +54,6 @@ const ContactForm = ({ addContact }) => {
       <button type="submit">Add contact</button>
     </ContainerForm>
   );
-  // }
 };
 
 ContactForm.propTypes = {
